@@ -1,14 +1,14 @@
-#TodoApp
+# TodoApp
 ## Author: Mathias Nilson
 
-##Project description:
+## Project description:
     A simple to-do list that gets data from an API (local JSON).
 
 ### Installation
 The app needs to be run from a server for the $.getJSON work.
 The author suggests "http-server"
     
-Installation via npm:
+#### Install http-server via npm:
 
     npm install http-server -g
     
@@ -21,7 +21,7 @@ The styles.less file is compiled in the provided project. However if needed it c
 
 ince no task runner is used, the less-files will be compiled manually.
 
-Install less via npm:
+#### Install less via npm:
      
      npm install less -g
 
