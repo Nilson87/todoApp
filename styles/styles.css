@@ -1,0 +1,48 @@
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background: #fff;
+  height: 100%;
+}
+ul.todos {
+  margin: 5px auto;
+  max-width: 480px;
+  width: 90%;
+  padding: 0;
+  border-top: grey 1px solid;
+  border-bottom: grey 1px solid;
+  list-style: none;
+}
+ul.todos li.todo {
+  position: relative;
+  height: 32px;
+  padding: 7px;
+}
+ul.todos li.todo:nth-child(odd) {
+  background: #f2f2f2;
+}
+ul.todos li.todo span {
+  display: inline-block;
+  line-height: 32px;
+}
+ul.todos li.todo .prio-icon {
+  position: absolute;
+  right: 7px;
+  background-image: url(../images/all.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+ul.todos li.todo .prio-icon.high {
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+ul.todos li.todo .prio-icon.low {
+  background-position: 0px -52px;
+  width: 32px;
+  height: 32px;
+}
+ul.todos li.todo .prio-icon.normal {
+  background-position: 0px -105px;
+  width: 32px;
+  height: 32px;
+}
