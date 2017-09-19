@@ -1,5 +1,5 @@
 # TodoApp
-## Author: Mathias Nilson
+Author: Mathias Nilson
 
 ## Project description:
 A simple to-do list that gets data from an API (local JSON).
