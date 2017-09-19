@@ -2,7 +2,7 @@
 ## Author: Mathias Nilson
 
 ## Project description:
-    A simple to-do list that gets data from an API (local JSON).
+A simple to-do list that gets data from an API (local JSON).
 
 ### Installation
 The app needs to be run from a server for the $.getJSON work.
